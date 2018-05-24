@@ -1,6 +1,6 @@
 import { AppRegistry } from 'react-native';
-//import App from './App';
-//import HelloWorld from './Components/HelloWorld';
 import Robot from './Components/Robot';
+import BoxWithText from './Components/BoxWithText'
+import FlexDimension from './Components/FlexDimension'
 
-AppRegistry.registerComponent('StartReact', () => Robot);
+AppRegistry.registerComponent('StartReact', () => FlexDimension);
